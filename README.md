@@ -4,13 +4,21 @@
 
 Cliente assíncrono da API Mailcore, com **151 operações em 30 classes de recursos**, cancelamento por `CancellationToken`, respostas com os bytes originais e downloads em fluxo. Compartilhe o cliente durante o ciclo de vida da aplicação para reutilizar conexões HTTP.
 
-Pacote **`Mailcore`**, versão **`0.1.0-alpha.1`**. Esta versão ainda não foi publicada no NuGet. O pacote oferece os targets `net8.0`, `net10.0` e `net11.0`; a validação também executa em .NET 9 usando o target compatível `net8.0`. A existência de um target de compatibilidade não estende o suporte de segurança do runtime escolhido.
+Pacote **`Mailcore`**, versão **`0.1.0-alpha.1`**. O pacote oferece os targets `net8.0`, `net10.0` e `net11.0`; a validação também executa em .NET 9 usando o target compatível `net8.0`. A existência de um target de compatibilidade não estende o suporte de segurança do runtime escolhido.
+
+## Instalação
+
+Para versões disponíveis no NuGet, instale o pacote na aplicação consumidora:
+
+```sh
+dotnet add package Mailcore --version 0.1.0-alpha.1
+```
 
 ## Desenvolvimento e instalação local
 
 Uma aplicação consumidora usa suas ferramentas .NET habituais. O ambiente de desenvolvimento e verificação desta biblioteca é executado em Docker, sem instalar o SDK .NET no host.
 
-Enquanto a publicação não ocorre, uma aplicação local pode referenciar o projeto:
+Para desenvolver com o checkout local, a aplicação pode referenciar o projeto:
 
 ```xml
 <ItemGroup>
@@ -66,7 +74,7 @@ HTTP 202 registra a aceitação da intenção. Eventos e webhooks acompanham a e
 
 O pacote opcional [Mailcore.FluentEmail](src/Mailcore.FluentEmail/README.md) integra o contrato `ISender` do FluentEmail. O SDK base pode ser usado sem essa dependência. Cada mensagem continua usando sua chave de idempotência estável; a integração não gera uma nova intenção automaticamente.
 
-O pacote opcional [Mailcore.AspNetCore](src/Mailcore.AspNetCore/README.md) oferece `MapMailcoreWebhook`, autenticando os bytes originais antes de chamar a aplicação, com leitura limitada a 8 MiB. Os três pacotes permanecem na versão alpha local, sem publicação.
+O pacote opcional [Mailcore.AspNetCore](src/Mailcore.AspNetCore/README.md) oferece `MapMailcoreWebhook`, autenticando os bytes originais antes de chamar a aplicação, com leitura limitada a 8 MiB. Os três pacotes usam a versão `0.1.0-alpha.1`; adicione as integrações opcionais conforme a necessidade da aplicação.
 
 ## Recursos, respostas e erros
 

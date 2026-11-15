@@ -1,6 +1,16 @@
 # Mailcore para FluentEmail
 
-Pacote opcional `Mailcore.FluentEmail`, versão `0.1.0-alpha.1`, ainda não publicado. O SDK base não depende de FluentEmail. Esta integração usa `FluentEmail.Core` 3.0.2 e aceita HTML/texto alternativo, cópias, resposta, cabeçalhos, prioridade, tags e anexos/CID conforme o contrato Mailcore.
+Pacote opcional `Mailcore.FluentEmail`, versão `0.1.0-alpha.1`. O SDK base não depende de FluentEmail. Esta integração usa `FluentEmail.Core` 3.0.2 e aceita HTML/texto alternativo, cópias, resposta, cabeçalhos, prioridade, tags e anexos/CID conforme o contrato Mailcore.
+
+## Instalação
+
+Para versões disponíveis no NuGet, instale o pacote na aplicação consumidora:
+
+```sh
+dotnet add package Mailcore.FluentEmail --version 0.1.0-alpha.1
+```
+
+## Uso
 
 ```csharp
 using Mailcore;

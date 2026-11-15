@@ -1,6 +1,16 @@
 # Webhooks Mailcore em ASP.NET Core
 
-Pacote opcional `Mailcore.AspNetCore`, versão `0.1.0-alpha.1`, ainda não publicado. Ele usa o SDK base e o framework compartilhado ASP.NET Core; o núcleo `Mailcore` continua independente de aplicações web.
+Pacote opcional `Mailcore.AspNetCore`, versão `0.1.0-alpha.1`. Ele usa o SDK base e o framework compartilhado ASP.NET Core; o núcleo `Mailcore` continua independente de aplicações web.
+
+## Instalação
+
+Para versões disponíveis no NuGet, instale o pacote na aplicação consumidora:
+
+```sh
+dotnet add package Mailcore.AspNetCore --version 0.1.0-alpha.1
+```
+
+## Uso
 
 ```csharp
 using Mailcore.AspNetCore;
