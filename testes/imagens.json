@@ -1,0 +1,74 @@
+{
+  "8": {
+    "suportado": false,
+    "sdk": {
+      "imagem": "mcr.microsoft.com/dotnet/sdk:8.0.428-bookworm-slim@sha256:1b955f179b02df4f0eb5fadedaa898cbe44d620a64aab52eec72c8e91d1355b5",
+      "digest": "sha256:1b955f179b02df4f0eb5fadedaa898cbe44d620a64aab52eec72c8e91d1355b5",
+      "amd64": "sha256:4cdea2a99ba7f4d8a48ebe250ec01db119d2102c141f85411a576be7bac5eb23"
+    },
+    "runtime": {
+      "imagem": "mcr.microsoft.com/dotnet/runtime:8.0.34-bookworm-slim@sha256:21b0f8ba67bef2f121781d17a8e21956aeaa2d8da8e4b5db0da1ea8f91e2b6a1",
+      "digest": "sha256:21b0f8ba67bef2f121781d17a8e21956aeaa2d8da8e4b5db0da1ea8f91e2b6a1",
+      "amd64": "sha256:f35cdc2dd3dfb42bfe013d3c441b25028b1d614ee656b56ec39c0e1c289c22a9"
+    },
+    "aspnet": {
+      "imagem": "mcr.microsoft.com/dotnet/aspnet:8.0.34-bookworm-slim@sha256:dccacae9e0e103b5d3ba5fbe442dd8d3316b990cd8f2ec9be0a0ec9db0c0e520",
+      "digest": "sha256:dccacae9e0e103b5d3ba5fbe442dd8d3316b990cd8f2ec9be0a0ec9db0c0e520",
+      "amd64": "sha256:f34fd5466d42d8f21b41f9f752622838c1de794c95de167eb371ba22d3fadb5a"
+    }
+  },
+  "9": {
+    "suportado": false,
+    "sdk": {
+      "imagem": "mcr.microsoft.com/dotnet/sdk:9.0.321-bookworm-slim@sha256:1dfdb27e9c2c345cb598925ccf6b13719ecfebea8467bd4745c23a3c108cdf84",
+      "digest": "sha256:1dfdb27e9c2c345cb598925ccf6b13719ecfebea8467bd4745c23a3c108cdf84",
+      "amd64": "sha256:a7fb5b71681767dd094e6ddddb37a17bceaf08db27e6033a9945ef071afc5a76"
+    },
+    "runtime": {
+      "imagem": "mcr.microsoft.com/dotnet/runtime:9.0.23-bookworm-slim@sha256:aa21f09894760dc31b207e29256fcf9a74fb14da4384b81ba49b1f038604087f",
+      "digest": "sha256:aa21f09894760dc31b207e29256fcf9a74fb14da4384b81ba49b1f038604087f",
+      "amd64": "sha256:e06da7bd10651e3f4b7b8f07e7c97e3bb40ecac8931d75ed5f1cf40e4a942ed7"
+    },
+    "aspnet": {
+      "imagem": "mcr.microsoft.com/dotnet/aspnet:9.0.23-bookworm-slim@sha256:22db800f670f4c21327f463df2a0bc8f0947b44f58c13e582ab4ed7e34310f3e",
+      "digest": "sha256:22db800f670f4c21327f463df2a0bc8f0947b44f58c13e582ab4ed7e34310f3e",
+      "amd64": "sha256:a60942190e73c283ebb767e76f847ec2a442a6d31795f9d335aa939557555249"
+    }
+  },
+  "10": {
+    "suportado": true,
+    "sdk": {
+      "imagem": "mcr.microsoft.com/dotnet/sdk:10.0.404-noble@sha256:fe0fd4e93bd2fbb47c883b7a6369e5c8d3db8bf01cdc5981f6ee35fbdf3ff4fb",
+      "digest": "sha256:fe0fd4e93bd2fbb47c883b7a6369e5c8d3db8bf01cdc5981f6ee35fbdf3ff4fb",
+      "amd64": "sha256:ddbaedfc8b774389d91a511af08b77296f2c7a8d15d86f6214d2a87166933625"
+    },
+    "runtime": {
+      "imagem": "mcr.microsoft.com/dotnet/runtime:10.0.15-noble@sha256:80a51954ac70925e5783cb1ed35129a4243dcb1cddef20066b67346e17db284d",
+      "digest": "sha256:80a51954ac70925e5783cb1ed35129a4243dcb1cddef20066b67346e17db284d",
+      "amd64": "sha256:342e2476e856efde687241821612b1d6792a76192ca71a28e31147314821dbb0"
+    },
+    "aspnet": {
+      "imagem": "mcr.microsoft.com/dotnet/aspnet:10.0.15-noble@sha256:bfd912c83295ce66d4b706ebb8541b9f14259b0e76fbb88b2751f58ce2399d2e",
+      "digest": "sha256:bfd912c83295ce66d4b706ebb8541b9f14259b0e76fbb88b2751f58ce2399d2e",
+      "amd64": "sha256:05acd0ca475e2130832bab441d28a7dd31041129bad28eac7928151fd73cd2c5"
+    }
+  },
+  "11": {
+    "suportado": true,
+    "sdk": {
+      "imagem": "mcr.microsoft.com/dotnet/sdk:11.0.100-resolute@sha256:65f3c7c6a25a239ab3e6719f2896147e7b68242ff2d8818dd70498bde6ef8bea",
+      "digest": "sha256:65f3c7c6a25a239ab3e6719f2896147e7b68242ff2d8818dd70498bde6ef8bea",
+      "amd64": "sha256:7913685c883a29dd8ba79da96172f5c6b29ed9be706ebe95935e3ef45f19c9c1"
+    },
+    "runtime": {
+      "imagem": "mcr.microsoft.com/dotnet/runtime:11.0.0-resolute@sha256:3fe5f5495141c97986a49d3a4e76061f6225c3f93f94e8a7e522781376193863",
+      "digest": "sha256:3fe5f5495141c97986a49d3a4e76061f6225c3f93f94e8a7e522781376193863",
+      "amd64": "sha256:68bbc1e7045ed6717c119dfd5e4f1a53ed520a3ed2f846e7aafc43d5b303beee"
+    },
+    "aspnet": {
+      "imagem": "mcr.microsoft.com/dotnet/aspnet:11.0.0-resolute@sha256:bc0d6653979efba491ab3d6f589d691f96c309c3c3ef81325efa6978e7b7f242",
+      "digest": "sha256:bc0d6653979efba491ab3d6f589d691f96c309c3c3ef81325efa6978e7b7f242",
+      "amd64": "sha256:4b8a4aa9ede33b3a99dfe48c6155ccdad29fe3e840adc15b8b8ad7866a5d7153"
+    }
+  }
+}

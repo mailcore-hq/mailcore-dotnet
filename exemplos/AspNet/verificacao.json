@@ -1,0 +1,20 @@
+{
+  "resultado": "aprovado",
+  "cenarios": 2,
+  "dotnet": "10.0.15",
+  "rede_externa": false,
+  "smtp": false,
+  "data_utc": "2026-11-14T19:37:14.142906+00:00",
+  "sdk_compilador": "11.0.100",
+  "runtime": "10.0.15",
+  "imagem": "sha256:227a337cd2cfccf95accee56833d2f2d6c5c494d70f3c22e94a415d77a19be0c",
+  "projeto": "exemplos/AspNet/Mailcore.Exemplo.AspNet.csproj",
+  "fontes_dockerfile": "exemplos/AspNet/Dockerfile",
+  "lock_sha256": "d8ff1bc03c77b833f6f5b881afc6b6cc417d517d8ebc1d674e4f1fd1128684e2",
+  "minimal_api": true,
+  "controller_mvc": true,
+  "raiz_somente_leitura": true,
+  "portas_publicadas": false,
+  "instalacao_host": false,
+  "publicado": false
+}

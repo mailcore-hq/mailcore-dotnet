@@ -1,0 +1,20 @@
+name: Verificar SDK .NET
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verificar:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        dotnet: ["8", "9", "10", "11"]
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - name: Compilar e verificar sem rede externa
+        run: python3 scripts/verificar.py --perfis ${{ matrix.dotnet }}

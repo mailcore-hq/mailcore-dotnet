@@ -1,0 +1,55 @@
+{
+  "data": "2026-11-14",
+  "resultado": "aprovado",
+  "total_execucoes_testes": 868,
+  "perfis": [
+    {
+      "resultado": "aprovado",
+      "framework": "net8.0",
+      "testes": 217,
+      "falhas": 0,
+      "ignorados": 0,
+      "perfil": "8",
+      "imagem": "mcr.microsoft.com/dotnet/sdk:8.0.428-bookworm-slim@sha256:1b955f179b02df4f0eb5fadedaa898cbe44d620a64aab52eec72c8e91d1355b5",
+      "dotnet_info": ".NET SDK:\n Version:           8.0.428\n Commit:            742a7a66c3\n Workload version:  8.0.400-manifests.a830daf1\n MSBuild version:   17.11.71+2613e0705\n\nRuntime Environment:\n OS Name:     debian\n OS Version:  12\n OS Platform: Linux\n RID:         linux-x64\n Base Path:   /usr/share/dotnet/sdk/8.0.428/\n\n.NET workloads installed:\nConfigured to use loose manifests when installing new manifests.\nThere are no installed workloads to display.\n\nHost:\n  Version:      8.0.34\n  Architecture: x64\n  Commit:       b455eab3a0\n\n.NET SDKs installed:\n  8.0.428 [/usr/share/dotnet/sdk]\n\n.NET runtimes installed:\n  Microsoft.AspNetCore.App 8.0.34 [/usr/share/dotnet/shared/Microsoft.AspNetCore.App]\n  Microsoft.NETCore.App 8.0.34 [/usr/share/dotnet/shared/Microsoft.NETCore.App]\n\nOther architectures found:\n  None\n\nEnvironment variables:\n  Not set\n\nglobal.json file:\n  Not found\n\nLearn more:\n  https://aka.ms/dotnet/info\n\nDownload .NET:\n  https://aka.ms/dotnet/download",
+      "rede": "none",
+      "suporte_microsoft": false
+    },
+    {
+      "resultado": "aprovado",
+      "framework": "net9.0",
+      "testes": 217,
+      "falhas": 0,
+      "ignorados": 0,
+      "perfil": "9",
+      "imagem": "mcr.microsoft.com/dotnet/sdk:9.0.321-bookworm-slim@sha256:1dfdb27e9c2c345cb598925ccf6b13719ecfebea8467bd4745c23a3c108cdf84",
+      "dotnet_info": ".NET SDK:\n Version:           9.0.321\n Commit:            47cfea2824\n Workload version:  9.0.300-manifests.7a6b3a52\n MSBuild version:   17.14.60+43b635718\n\nRuntime Environment:\n OS Name:     debian\n OS Version:  12\n OS Platform: Linux\n RID:         linux-x64\n Base Path:   /usr/share/dotnet/sdk/9.0.321/\n\n.NET workloads installed:\nThere are no installed workloads to display.\nConfigured to use loose manifests when installing new manifests.\n\nHost:\n  Version:      9.0.23\n  Architecture: x64\n  Commit:       9d2830390d\n\n.NET SDKs installed:\n  9.0.321 [/usr/share/dotnet/sdk]\n\n.NET runtimes installed:\n  Microsoft.AspNetCore.App 9.0.23 [/usr/share/dotnet/shared/Microsoft.AspNetCore.App]\n  Microsoft.NETCore.App 9.0.23 [/usr/share/dotnet/shared/Microsoft.NETCore.App]\n\nOther architectures found:\n  None\n\nEnvironment variables:\n  Not set\n\nglobal.json file:\n  Not found\n\nLearn more:\n  https://aka.ms/dotnet/info\n\nDownload .NET:\n  https://aka.ms/dotnet/download",
+      "rede": "none",
+      "suporte_microsoft": false
+    },
+    {
+      "resultado": "aprovado",
+      "framework": "net10.0",
+      "testes": 217,
+      "falhas": 0,
+      "ignorados": 0,
+      "perfil": "10",
+      "imagem": "mcr.microsoft.com/dotnet/sdk:10.0.404-noble@sha256:fe0fd4e93bd2fbb47c883b7a6369e5c8d3db8bf01cdc5981f6ee35fbdf3ff4fb",
+      "dotnet_info": ".NET SDK:\n Version:           10.0.404\n Commit:            2ab2854867\n Workload version:  10.0.400-manifests.ad9f6d83\n MSBuild version:   18.9.15+2ab285486\n\nRuntime Environment:\n OS Name:     ubuntu\n OS Version:  24.04\n OS Platform: Linux\n RID:         linux-x64\n Base Path:   /usr/share/dotnet/sdk/10.0.404/\n\n.NET workloads installed:\nThere are no installed workloads to display.\nConfigured to use workload sets when installing new manifests.\nNo workload sets are installed. Run \"dotnet workload restore\" to install a workload set.\n\nHost:\n  Version:      10.0.15\n  Architecture: x64\n  Commit:       8e0f8ed231\n\n.NET SDKs installed:\n  10.0.404 [/usr/share/dotnet/sdk]\n\n.NET runtimes installed:\n  Microsoft.AspNetCore.App 10.0.15 [/usr/share/dotnet/shared/Microsoft.AspNetCore.App]\n  Microsoft.NETCore.App 10.0.15 [/usr/share/dotnet/shared/Microsoft.NETCore.App]\n\nOther architectures found:\n  None\n\nEnvironment variables:\n  DOTNET_CLI_HOME                          [/tmp/dotnet]\n  DOTNET_CLI_TELEMETRY_OPTOUT              [1]\n  DOTNET_GENERATE_ASPNET_CERTIFICATE       [false]\n  DOTNET_NOLOGO                            [1]\n  DOTNET_RUNNING_IN_CONTAINER              [true]\n  DOTNET_SDK_VERSION                       [10.0.404]\n  DOTNET_SKIP_FIRST_TIME_EXPERIENCE        [1]\n  DOTNET_USE_POLLING_FILE_WATCHER          [true]\n  DOTNET_VERSION                           [10.0.15]\n\nglobal.json file:\n  Not found\n\nLearn more:\n  https://aka.ms/dotnet/info\n\nDownload .NET:\n  https://aka.ms/dotnet/download",
+      "rede": "none",
+      "suporte_microsoft": true
+    },
+    {
+      "resultado": "aprovado",
+      "framework": "net11.0",
+      "testes": 217,
+      "falhas": 0,
+      "ignorados": 0,
+      "perfil": "11",
+      "imagem": "mcr.microsoft.com/dotnet/sdk:11.0.100-resolute@sha256:65f3c7c6a25a239ab3e6719f2896147e7b68242ff2d8818dd70498bde6ef8bea",
+      "dotnet_info": ".NET SDK:\n Version:           11.0.100\n Commit:            297acf930f\n Workload version:  11.0.100-manifests.08e30c08\n MSBuild version:   18.12.2-1.26529.118+297acf930\n\nRuntime Environment:\n OS Name:     ubuntu\n OS Version:  26.04\n OS Platform: Linux\n RID:         linux-x64\n Base Path:   /usr/share/dotnet/sdk/11.0.100\n\n.NET workloads installed:\nThere are no installed workloads to display.\nConfigured to use workload sets when installing new manifests.\nNo workload sets are installed. Run \"dotnet workload restore\" to install a workload set.\n\nHost:\n  Version:      11.0.0\n  Architecture: x64\n  Commit:       297acf930f\n\n.NET SDKs installed:\n  11.0.100 [/usr/share/dotnet/sdk]\n\n.NET runtimes installed:\n  Microsoft.AspNetCore.App 11.0.0 [/usr/share/dotnet/shared/Microsoft.AspNetCore.App]\n  Microsoft.NETCore.App 11.0.0 [/usr/share/dotnet/shared/Microsoft.NETCore.App]\n\nOther architectures found:\n  None\n\nEnvironment variables:\n  DOTNET_CLI_HOME                          [/tmp/dotnet]\n  DOTNET_CLI_TELEMETRY_OPTOUT              [1]\n  DOTNET_GENERATE_ASPNET_CERTIFICATE       [false]\n  DOTNET_NOLOGO                            [1]\n  DOTNET_RUNNING_IN_CONTAINER              [true]\n  DOTNET_SDK_VERSION                       [11.0.100]\n  DOTNET_SKIP_FIRST_TIME_EXPERIENCE        [1]\n  DOTNET_USE_POLLING_FILE_WATCHER          [true]\n  DOTNET_VERSION                           [11.0.0]\n\nglobal.json file:\n  Not found\n\nLearn more:\n  https://aka.ms/dotnet/info\n\nDownload .NET:\n  https://aka.ms/dotnet/download",
+      "rede": "none",
+      "suporte_microsoft": true
+    }
+  ]
+}

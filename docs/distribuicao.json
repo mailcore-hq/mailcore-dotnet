@@ -1,0 +1,76 @@
+{
+  "pacote": "Mailcore",
+  "versao": "0.1.0-alpha.1",
+  "frameworks": [
+    "net10.0",
+    "net11.0",
+    "net8.0"
+  ],
+  "dependencias_fora_dll_sdk": true,
+  "licenca_sdk_preservada": true,
+  "cache_sem_configuracoes_credenciais_host": true,
+  "publicado": false,
+  "pacotes": {
+    "Mailcore": {
+      "artefatos": {
+        "pacote": {
+          "arquivo": "Mailcore.0.1.0-alpha.1.nupkg",
+          "sha256": "a00ebe6ea424270bb87c93e5e1c764e87486603e2204c734b68a916e34896b45",
+          "bytes": 137814
+        },
+        "simbolos": {
+          "arquivo": "Mailcore.0.1.0-alpha.1.snupkg",
+          "sha256": "0753c5b66215278f3c3926fd644a4b685f6ee434a57d855e0240e285f786e3b8",
+          "bytes": 169345
+        }
+      },
+      "frameworks": [
+        "net10.0",
+        "net11.0",
+        "net8.0"
+      ]
+    },
+    "Mailcore.FluentEmail": {
+      "artefatos": {
+        "pacote": {
+          "arquivo": "Mailcore.FluentEmail.0.1.0-alpha.1.nupkg",
+          "sha256": "9a5250c233df6765f7f0cb7d4f70ddd3f66ddab18af5cae21d48a14f5167aac2",
+          "bytes": 32825
+        },
+        "simbolos": {
+          "arquivo": "Mailcore.FluentEmail.0.1.0-alpha.1.snupkg",
+          "sha256": "755971ccc0d267f4ae027898ef0ec333af578da1808e41fc8c29c539c2569fde",
+          "bytes": 37235
+        }
+      },
+      "frameworks": [
+        "net10.0",
+        "net11.0",
+        "net8.0"
+      ]
+    },
+    "Mailcore.AspNetCore": {
+      "artefatos": {
+        "pacote": {
+          "arquivo": "Mailcore.AspNetCore.0.1.0-alpha.1.nupkg",
+          "sha256": "abf6b1d97ae4dd3a25033c664bd835bd6e8a0c54c4157fff4eb46321b5b2e86b",
+          "bytes": 22499
+        },
+        "simbolos": {
+          "arquivo": "Mailcore.AspNetCore.0.1.0-alpha.1.snupkg",
+          "sha256": "7a9112134c10a76297ebfd277ad0eda32c6297b8dcd55d3ca40c7837fe79877a",
+          "bytes": 41769
+        }
+      },
+      "frameworks": [
+        "net10.0",
+        "net11.0",
+        "net8.0"
+      ]
+    }
+  },
+  "data": "2026-11-14",
+  "resultado": "aprovado",
+  "sha256_feed": "213c636afd651c298ec0e1475127977df29efa73df66f8f274754d0b652c6409",
+  "arquivos_feed": 58
+}

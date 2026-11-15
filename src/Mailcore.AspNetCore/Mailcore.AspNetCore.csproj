@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net10.0;net11.0</TargetFrameworks>
+    <PackageId>Mailcore.AspNetCore</PackageId>
+    <Version>0.1.0-alpha.1</Version>
+    <Authors>Mailcore</Authors>
+    <Description>Integração opcional de webhooks Mailcore com endpoints ASP.NET Core.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://mailcore.com.br</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mailcore-hq/mailcore-dotnet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Mailcore/Mailcore.csproj" />
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <None Include="../../LICENSE" Pack="true" PackagePath="/" />
+    <None Include="README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+</Project>

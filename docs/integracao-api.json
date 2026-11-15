@@ -1,0 +1,76 @@
+{
+  "data_utc": "2026-11-14T20:20:47.572325+00:00",
+  "resultado": "aprovado",
+  "ambiente": "api_postgres_tls_exclusivos_sem_worker_sem_portas",
+  "instalacao_host": false,
+  "rede_interna": true,
+  "portas_publicadas": false,
+  "worker_executado": false,
+  "smtp_executado": false,
+  "deploy_executado": false,
+  "tls_api_verificado": true,
+  "tls_postgres": "verify-full",
+  "cenarios": [
+    "chaves_full_sending_escopo_dump",
+    "envio_composto_idempotencia_409_download_cancelamento_concorrencia",
+    "lote_atomico_repeticao_conflito",
+    "dominios_capacidades_tracking_crud",
+    "contatos_objetos_listas_null_false_importacao_csv_fluxos",
+    "modelos_pastas_versoes_previa_publicacao_cas",
+    "marketing_objeto_vazio_crud_sem_disparo",
+    "caixas_etiquetas_rascunhos_cas_sem_envio",
+    "recebimento_mime_real_pendente_bytes_fluxos_padrao_injetado",
+    "cli_revogacao_e_limpeza_crud"
+  ],
+  "cliente_programa_sha256": "414bafcb77e090eae1e2da91cedb66f3a8947e33bc00d2bacaab234f1889a924",
+  "framework_cliente": "net11.0",
+  "etapa": "concluido",
+  "imagens": {
+    "cliente": "sha256:0126e60f6e27a1c355a498f79156e24b4c41d181009b8a584e089594ccc1f843",
+    "api_runtime": "sha256:158e95e9b87f2a126c038e6931b2f956fe6120f3566fd047a29250bd7783ff33",
+    "compilador": "sha256:8fa55b2f3ddf97471ab6a767bfa3f37e6bad0986ba823e75fea57e2a2a5c3073",
+    "postgres": "sha256:f1ea2a1a4fb7b68d4836be1fdcb8a6466a89b072158bf9d97663600538c294c5"
+  },
+  "cliente_programa_compilado_sha256": "524388cf22f0206848ef064cdceb9716dcf5c21d53b677387acf4b9bd94aa06e",
+  "cliente_sdk_dll_sha256": "8d6f325d5f6f70a7ccaa68af3a27ac29781f0468b554e2bf4544a250d619a259",
+  "backend_revisao": "d80fec4d12a74179aa2ecd531b24b7ec56d5f767",
+  "backend_fontes_sha256": "d31c825268a64c858276827f47d27e506f543421327f487d7165e511359e248f",
+  "backend_fontes_alterados": false,
+  "api_compilada_neste_ensaio": true,
+  "api_binario_sha256": "3cd977ab90dbfcc0067b7d0b85d120ae9132f4e873cc223298f901fc1dbd35bf",
+  "migracoes_aplicadas": 23,
+  "recebimento_processado_por_worker": false,
+  "importacao_processada_por_worker": false,
+  "callbacks_fluxo_padrao": 2,
+  "callbacks_fluxo_http_injetado": 2,
+  "http_injetado_provedor": "System.Net.Http",
+  "leituras_concorrentes_mesmo_cliente": 8,
+  "politica_http_injetado": "tls_ca_explicita_sem_proxy_cookies_redirect_decompress_timeout",
+  "protocolos_http_helper_observados": [
+    "HTTP/2"
+  ],
+  "dotnet": "11.0.0",
+  "persistencia_sintetica": {
+    "mensagens": 3,
+    "tarefas_envio": 3,
+    "recebidos": 1,
+    "recebidos_pendentes": 1
+  },
+  "limpeza_concluida": true,
+  "conferencia_pacote_local": {
+    "data_utc": "2026-11-14T20:21:26.759982+00:00",
+    "pacote": "Mailcore",
+    "versao": "0.1.0-alpha.1",
+    "sha256_pacote": "a00ebe6ea424270bb87c93e5e1c764e87486603e2204c734b68a916e34896b45",
+    "target": "net11.0",
+    "dll_executada_igual_pacote": true,
+    "arquivos_dll_pdb_xml_por_imagem": 27,
+    "imagens_conferidas": [
+      "sha256:93cb9db282f53fa78fb3d22518c4f109d146272f5c8114c77ef822e7ef299808",
+      "sha256:d1d00f2f7e0955d60729a804f54ab11a2bc729839c88b133fd0218b7eb4995e1",
+      "sha256:b46f2d2281c5e393b8218da261d79dbb43a4b0881bdf2386b112e94dcad7e4ad",
+      "sha256:0126e60f6e27a1c355a498f79156e24b4c41d181009b8a584e089594ccc1f843"
+    ],
+    "publicado": false
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "arquivos": {
+    "src/Mailcore/bin/Release/net10.0/Mailcore.dll": "ceee1f6bc468ef16e4aa1165758ceb4fc557dc16ce84483512ff68ed4df26a45",
+    "src/Mailcore/bin/Release/net10.0/Mailcore.xml": "240e1a9fe5ac4fc4af546f129c5bf2cebc13e935b2d8328037de4f1803aba76b",
+    "src/Mailcore/bin/Release/net11.0/Mailcore.dll": "8d6f325d5f6f70a7ccaa68af3a27ac29781f0468b554e2bf4544a250d619a259",
+    "src/Mailcore/bin/Release/net11.0/Mailcore.xml": "240e1a9fe5ac4fc4af546f129c5bf2cebc13e935b2d8328037de4f1803aba76b",
+    "src/Mailcore/bin/Release/net8.0/Mailcore.dll": "e100e5eca4238dcb7369438cc1434e6e429cf5b14932e83c2f18e73cf99ad833",
+    "src/Mailcore/bin/Release/net8.0/Mailcore.xml": "240e1a9fe5ac4fc4af546f129c5bf2cebc13e935b2d8328037de4f1803aba76b",
+    "src/Mailcore/bin/Release/net10.0/Mailcore.pdb": "eb6b5a7e3d1339f15e34dd83948210c11bd3e598a39f1dbe0a03aa69f731b68d",
+    "src/Mailcore/bin/Release/net11.0/Mailcore.pdb": "f891614651ccba306a5de523de05688e303e591bd851ad0b60f96b9f0dabb2e8",
+    "src/Mailcore/bin/Release/net8.0/Mailcore.pdb": "faafe967b36b94932f8a89282f1c004be19bf115a2bb04d4bd1cd5d15c6daa98",
+    "src/Mailcore.FluentEmail/bin/Release/net10.0/Mailcore.FluentEmail.dll": "82acefb964a24a485a15cf2743d68ed9ac6885e31db95ab7ad8f422ec47cc231",
+    "src/Mailcore.FluentEmail/bin/Release/net10.0/Mailcore.FluentEmail.xml": "18273fc40c306b11bc89bef4248bec66c6b6ad7c2a7f9c93a0e24ba7e905ab0c",
+    "src/Mailcore.FluentEmail/bin/Release/net11.0/Mailcore.FluentEmail.dll": "99e25ce97d7d13fc584c512c38fde83197fe866966cbb6b77ef71a2a88e879d3",
+    "src/Mailcore.FluentEmail/bin/Release/net11.0/Mailcore.FluentEmail.xml": "18273fc40c306b11bc89bef4248bec66c6b6ad7c2a7f9c93a0e24ba7e905ab0c",
+    "src/Mailcore.FluentEmail/bin/Release/net8.0/Mailcore.FluentEmail.dll": "1d07261365d4d065256bcc311eec1d63bc9066fdf69dec5de108854d1ae83e72",
+    "src/Mailcore.FluentEmail/bin/Release/net8.0/Mailcore.FluentEmail.xml": "18273fc40c306b11bc89bef4248bec66c6b6ad7c2a7f9c93a0e24ba7e905ab0c",
+    "src/Mailcore.FluentEmail/bin/Release/net10.0/Mailcore.FluentEmail.pdb": "d943e7e4799b4a33284118e92260dcb089852e30e1a415145ef09d48f769cbd8",
+    "src/Mailcore.FluentEmail/bin/Release/net11.0/Mailcore.FluentEmail.pdb": "4b8a6098a4bfddfe5e8cd810fa135caa231753eceff684712eea6c94944d3f9c",
+    "src/Mailcore.FluentEmail/bin/Release/net8.0/Mailcore.FluentEmail.pdb": "6ad38752412845836e997511829ecd915f44b388e1c8e2871d5d87ac56c4ffcc",
+    "src/Mailcore.AspNetCore/bin/Release/net10.0/Mailcore.AspNetCore.dll": "079ab7e971dbe9dc02ad66c467299f3c55c312d968fad1a4abcefc54b6e79520",
+    "src/Mailcore.AspNetCore/bin/Release/net10.0/Mailcore.AspNetCore.xml": "e46108ea007c6c6d162339eb40eadfd10cfbd59ed95d50081b7297f6b1dedec9",
+    "src/Mailcore.AspNetCore/bin/Release/net11.0/Mailcore.AspNetCore.dll": "96f635660c7c47a77d0c8072a522d62e252381bc19362ccd4489d968c2923731",
+    "src/Mailcore.AspNetCore/bin/Release/net11.0/Mailcore.AspNetCore.xml": "e46108ea007c6c6d162339eb40eadfd10cfbd59ed95d50081b7297f6b1dedec9",
+    "src/Mailcore.AspNetCore/bin/Release/net8.0/Mailcore.AspNetCore.dll": "8d798add7244363066b9052fd4068113dd12473dbbdaef3afb99bd8b33b0efb3",
+    "src/Mailcore.AspNetCore/bin/Release/net8.0/Mailcore.AspNetCore.xml": "e46108ea007c6c6d162339eb40eadfd10cfbd59ed95d50081b7297f6b1dedec9",
+    "src/Mailcore.AspNetCore/bin/Release/net10.0/Mailcore.AspNetCore.pdb": "527baadd33cde4080942a1a8663eca7706b29bfc609817604f1cdd23220ca689",
+    "src/Mailcore.AspNetCore/bin/Release/net11.0/Mailcore.AspNetCore.pdb": "169df94eb6e22ad83114375615d1fc7a5aac20ffbb30ec2ee25a75405537e79c",
+    "src/Mailcore.AspNetCore/bin/Release/net8.0/Mailcore.AspNetCore.pdb": "dadd13e6985691cb9f1ec1822fb6667cc3a783a29643a34c5c243dc0d2b994e5"
+  },
+  "imagem": "mailcore/dotnet-testes:11",
+  "identicos": true,
+  "imagens": {
+    "8": {
+      "imagem": "sha256:93cb9db282f53fa78fb3d22518c4f109d146272f5c8114c77ef822e7ef299808",
+      "arquivos_dll_pdb_xml": 27,
+      "identicos_ao_pacote": true
+    },
+    "9": {
+      "imagem": "sha256:d1d00f2f7e0955d60729a804f54ab11a2bc729839c88b133fd0218b7eb4995e1",
+      "arquivos_dll_pdb_xml": 27,
+      "identicos_ao_pacote": true
+    },
+    "10": {
+      "imagem": "sha256:b46f2d2281c5e393b8218da261d79dbb43a4b0881bdf2386b112e94dcad7e4ad",
+      "arquivos_dll_pdb_xml": 27,
+      "identicos_ao_pacote": true
+    },
+    "11": {
+      "imagem": "sha256:0126e60f6e27a1c355a498f79156e24b4c41d181009b8a584e089594ccc1f843",
+      "arquivos_dll_pdb_xml": 27,
+      "identicos_ao_pacote": true
+    }
+  }
+}
