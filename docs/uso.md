@@ -187,4 +187,4 @@ app.MapMailcoreWebhook("/webhooks/email", segredoWebhook,
     });
 ```
 
-`ProcessarEventoAsync` pertence à aplicação. A extensão aceita POST, limita a leitura a 8 MiB e verifica a assinatura antes do callback. Sucesso retorna HTTP 204, assinatura inválida retorna 400 genérico e corpo excedido retorna 413. O callback recebe `RequestAborted` e deve cooperar com cancelamento; suas falhas permanecem na pipeline ASP.NET. Autorização, deduplicação e persistência continuam no fluxo da aplicação. `Mailcore`, `Mailcore.FluentEmail` e `Mailcore.AspNetCore` ainda não foram publicados no NuGet.
+`ProcessarEventoAsync` pertence à aplicação. A extensão aceita POST, limita a leitura a 8 MiB e verifica a assinatura antes do callback. Sucesso retorna HTTP 204, assinatura inválida retorna 400 genérico e corpo excedido retorna 413. O callback recebe `RequestAborted` e deve cooperar com cancelamento; suas falhas permanecem na pipeline ASP.NET. Autorização, deduplicação e persistência continuam no fluxo da aplicação. `Mailcore` é o SDK base; `Mailcore.FluentEmail` e `Mailcore.AspNetCore` são integrações opcionais.

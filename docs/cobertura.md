@@ -1,6 +1,6 @@
 # Cobertura do SDK .NET
 
-A versão `0.1.0-alpha.1` oferece **16 recursos principais, 30 classes de recursos e 151 operações assíncronas**. O pacote `Mailcore` ainda não foi publicado. Targets: `net8.0`, `net10.0` e `net11.0`; a validação também usa .NET 9 consumindo o target compatível `net8.0`.
+A versão `0.1.0-alpha.1` oferece **16 recursos principais, 30 classes de recursos e 151 operações assíncronas**. O pacote principal é `Mailcore`. Targets: `net8.0`, `net10.0` e `net11.0`; a validação também usa .NET 9 consumindo o target compatível `net8.0`.
 
 As classes pertencem a `Mailcore.Recursos`. Propriedades subordinadas reutilizam o transporte do cliente. Conveniências de argumentos opcionais não representam operações adicionais.
 
@@ -62,6 +62,6 @@ URLs temporárias são dados sensíveis; o SDK não segue URLs de metadados envi
 
 O contrato foi conferido com o fingerprint backend `d31c825268a64c858276827f47d27e506f543421327f487d7165e511359e248f`. Os testes de transporte usam fixture independente por AST do SDK Node; os testes com API real verificam cenários de persistência separadamente.
 
-As integrações opcionais `Mailcore.FluentEmail` e `Mailcore.AspNetCore` não acrescentam operações à contagem de 151. A primeira adapta o contrato `ISender`; a segunda mapeia webhooks ASP.NET com autenticação dos bytes originais, leitura limitada a 8 MiB e cancelamento por `RequestAborted`. Os três pacotes NuGet permanecem alpha locais e não publicados.
+As integrações opcionais `Mailcore.FluentEmail` e `Mailcore.AspNetCore` não acrescentam operações à contagem de 151. A primeira adapta o contrato `ISender`; a segunda mapeia webhooks ASP.NET com autenticação dos bytes originais, leitura limitada a 8 MiB e cancelamento por `RequestAborted`. As integrações opcionais são pacotes NuGet separados e mantêm o contrato do SDK base.
 
 Consulte [uso](uso.md) e [verificação](verificacao.md) para exemplos, limitações e evidências.

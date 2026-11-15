@@ -4,7 +4,7 @@ Exemplo compilável do cliente Mailcore com DI e `IHttpClientFactory`, usando um
 
 As rotas demonstrativas `/exemplos/minimo` e `/exemplos/controlador` usam a mesma lógica de confirmação. Na aplicação real, os dados e a chave de idempotência devem vir de uma intenção persistida pelo fluxo autorizado. A aplicação define sua autenticação e seu roteamento. Uma resposta 202 confirma aceitação da intenção; acompanhe os eventos e webhooks para saber o resultado da entrega.
 
-O exemplo referencia o SDK por projeto local porque a versão alpha ainda não foi publicada. O SDK base suporta `AddMailcore` e configuração por chamada sem exigir FluentEmail.
+O exemplo referencia o checkout local do SDK para desenvolvimento conjunto. O SDK base suporta `AddMailcore` e configuração por chamada sem exigir FluentEmail.
 
 Com ferramentas .NET disponíveis, compile a partir da raiz do SDK:
 

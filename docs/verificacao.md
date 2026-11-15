@@ -92,4 +92,4 @@ O [ensaio de interrupção intencional](integracao-api-interrupcao.json) enviou 
 
 O [exemplo ASP.NET](../exemplos/AspNet/README.md) compila Minimal API e MVC. Seus dois cenários usam DI e o SDK real com handler sintético, sem SMTP ou portas públicas. O [relatório do exemplo](../exemplos/AspNet/verificacao.json) registra as ferramentas.
 
-Esses ensaios verificam integração, protocolo, instalação e aceitação/persistência na API. Não medem entrega SMTP nem estabelecem equivalência de desempenho em produção. Os pacotes continuam alpha locais, sem publicação no NuGet.
+Esses ensaios verificam integração, protocolo, instalação e aceitação/persistência na API. Não medem entrega SMTP nem estabelecem equivalência de desempenho em produção. Esses relatórios registram a validação dos pacotes alpha em ambiente isolado.

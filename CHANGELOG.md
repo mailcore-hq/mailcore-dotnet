@@ -8,4 +8,4 @@
 - Respostas em bytes/JSON, downloads em fluxo, limites e metadados HTTP.
 - Autenticação HMAC de webhooks e modelos de envio tipados.
 - Pacote FluentEmail opcional e exemplo ASP.NET Minimal API/MVC.
-- Pacotes NuGet e símbolos locais; publicação reservada para etapa posterior.
+- Empacotamento dos pacotes NuGet e símbolos.
